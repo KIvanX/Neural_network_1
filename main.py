@@ -1,4 +1,3 @@
-
 import pygame as pg
 
 
@@ -8,6 +7,7 @@ def f(x):
 
 pg.init()
 window = pg.display.set_mode((600, 600))
+pg.display.set_caption('Нейросеть 1')
 
 weights = [0.5] * 3
 traning_data = []
